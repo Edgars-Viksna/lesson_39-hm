@@ -6,12 +6,13 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> integerList = List.of(-3, -1, 0, 1, 3, 5);
+//        Дан List<Integer>. Найти значение элемента, максимально близкого к
+//        некоторому заданному значению N
 
+        List<Integer> integerList = List.of(-3, -1, 0, 1, 3, 5);
         System.out.println(maxCloseTo(integerList, 7));
         System.out.println(maxCloseTo(integerList, 2));
         System.out.println(maxCloseTo(integerList, -4));
-
 
     }
 
