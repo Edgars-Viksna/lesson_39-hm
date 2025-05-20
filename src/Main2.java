@@ -20,13 +20,5 @@ public class Main2 {
 
     }
 
-//    public static List<String> sortByCity(List<Order> orders) {
-//        //TreeSet<Order> result = new TreeSet<>(orders);
-//        return orders.stream().collect(Collectors
-//                .toMap(order -> order.getCity(), order -> order.getWeight())).toString();
-//
-//
-//    }
-
 
 }
